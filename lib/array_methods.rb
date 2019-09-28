@@ -12,10 +12,10 @@ puts find_element_index([1,2,4,5], 1)
 def find_max_value(array)
   # Add your solution 
   counter =0
-  max = array[0]
+  max = Integer
   while array[counter] do
-    if max<array[counter+1]
-      max =array[counter+1]
+    if max<array[counter]
+      max =array[counter]
     end
     counter += 1
   end
