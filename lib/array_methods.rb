@@ -35,6 +35,6 @@ def find_min_value(array)
   min
 end
 
-puts find_min_value([1,2,3,4,1])
+puts find_min_value([7,2,3,4,1])
 
 
