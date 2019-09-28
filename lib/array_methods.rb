@@ -32,7 +32,7 @@ def find_min_value(array)
     end
     counter += 1
   end
-  min
+  return min
 end
 
 find_min_value([1,2,3,4,1])
